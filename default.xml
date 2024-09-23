@@ -12,6 +12,9 @@
   <!-- Define individual projects -->
   <project name=".dotfiles" path="projects/dotfiles" branch="master" />
   <project name="nvim-config" path="projects/nvim-config" branch="master" />
+
+
+  <linkfile src="projects/nvim-config" dest="projects/dotfiles/.config/nvim">
   
   <!-- Example of including another manifest -->
   <!-- <include name="additional_projects.xml" /> -->
