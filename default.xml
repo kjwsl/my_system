@@ -2,7 +2,7 @@
 <manifest>
   <!-- Define a remote repository -->
   <remote name="origin"
-          fetch="https://github.com/kjwsl/my_system" />
+          fetch="https://github.com/kjwsl" />
 
   <!-- Set default attributes for projects -->
   <default remote="origin"
