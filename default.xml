@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Define a remote repository -->
+  <remote name="origin"
+          fetch="https://github.com/kjwsl/my_system" />
+
+  <!-- Set default attributes for projects -->
+  <default remote="origin"
+           revision="master"
+           sync-j="4" />
+
+  <!-- Define individual projects -->
+  <project name=".dotfiles" path="projects/dotfiles" branch="master" />
+  <project name="nvim-config" path="projects/nvim-config" branch="master" />
+  
+  <!-- Example of including another manifest -->
+  <!-- <include name="additional_projects.xml" /> -->
+</manifest>
+
